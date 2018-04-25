@@ -16,10 +16,6 @@ import org.springframework.web.client.RestTemplate;
  * 
  */
 @SpringBootApplication
-@EnableDiscoveryClient
-@EnableEurekaClient
-//@EnableHystrix
-//@EnableHystrixDashboard
 @ImportResource({"classpath*:/spring/spring-mvc.xml"
 	,"classpath*:/spring/applicationContext-spring-security.xml"
 	,"classpath*:/spring/applicationContext-auth.xml"
