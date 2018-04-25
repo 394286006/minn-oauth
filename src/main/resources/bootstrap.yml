@@ -1,0 +1,29 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8082
+  context-path: /auth
+spring:
+  application:
+    name: auth
+  redis:
+    host: localhost
+    password: 
+    port: 6379
+    database: 0
+    timeout: 0
+  session:
+    store-type: none
+ribbon:  
+  ReadTimeout: 60000  
+  ConnectTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: SEMAPHORE
+          thread:
+            timeoutInMilliseconds: 60000
