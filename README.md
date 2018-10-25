@@ -36,7 +36,7 @@ f.   minn-zuul
 
 下图是在eureka注册的微服务：
 
-
+http://i84.xyz/wp-content/uploads/2018/10/Screen-Shot-2018-10-25-at-8.44.48-AM.png
 eureka
 3.前端启动：minn-admin-web  :  npm run dev
 
